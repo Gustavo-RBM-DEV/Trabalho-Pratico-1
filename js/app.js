@@ -195,7 +195,7 @@ const dados = [
   } 
 ];
 
-/* cria o HTML do card (usa layout bootstrap solicitado) */
+/* cria o HTML do card */
 function criarCardBootstrap(item) {
   const urlDetalhes = `detalhes.html?id=${item.id}`;
   const buttonText = item.categoria === 'Console' ? 'Ver Console' :
