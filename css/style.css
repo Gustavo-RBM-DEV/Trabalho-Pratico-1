@@ -114,6 +114,11 @@ footer {
   border-radius: 6px;
 }
 
+@media (max-width: 992px) {
+    .carousel-inner img {
+        max-height: 300px;
+    }
+    }
 
 @media (max-width: 768px) {
   .banner-img {
@@ -122,5 +127,15 @@ footer {
   
   .section-title {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-inner img {
+    max-height: 200px;
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
   }
 }
