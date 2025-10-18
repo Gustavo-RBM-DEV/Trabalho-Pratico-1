@@ -7,11 +7,11 @@ const dados = [
     conteudo: "O Atari 2600 revolucionou o mercado em 1977, popularizando o conceito de cartuchos intercambiáveis. Com gráficos simples, mas inovadores para a época, trouxe a experiência de arcade para a sala de estar. Jogos como *Space Invaders* e *Pitfall!* se tornaram clássicos instantâneos. Sua influência é inegável, estabelecendo as bases para toda a indústria moderna de videogames. ",
     categoria: "Console",
     data: "1977-09-11",
-    imagem: "img/atari2600/atari2600.jpg",
+    imagem: "assets/img/atari2600/atari2600.jpg",
     fotos: [
-      { id: 1, titulo: "atari primeira verção", imagem: "img/atari2600/atariprimeiraversao.png",},
-      { id: 2, titulo: "controle atari", imagem: "img/atari2600/ataricontrole.jpg",},
-      { id: 3, titulo: "jogo incluido no lançamento", imagem: "img/atari2600/jogolançamento.png",}
+      { id: 1, titulo: "atari primeira verção", imagem: "assets/img/atari2600/atariprimeiraversao.png",},
+      { id: 2, titulo: "controle atari", imagem: "assets/img/atari2600/ataricontrole.jpg",},
+      { id: 3, titulo: "jogo incluido no lançamento", imagem: "assets/img/atari2600/jogolançamento.png",}
     ]
   },
   {
@@ -21,11 +21,11 @@ const dados = [
     conteudo: "O NES não apenas salvou a indústria após a crise de 1983, mas a redefiniu. Com um controle de qualidade rigoroso e títulos icônicos como *Super Mario Bros.* e *The Legend of Zelda*, ele introduziu a jogabilidade baseada em enredo e mecânicas mais complexas. Seu sucesso transformou a Nintendo em uma gigante global.",
     categoria: "Console",
     data: "1983-07-15",
-    imagem: "img/nes/nes.jpg",
+    imagem: "assets/img/nes/nes.jpg",
     fotos: [
-      { id: 1, titulo: "controle nes", imagem: "img/nes/controlenes.jpg",  },
-      { id: 2, titulo: "Nintendo Zapper", imagem: "img/nes/zappernes.jpg", },
-      { id: 3, titulo: "Comparação de NES de diferentes regiões", imagem: "img/nes/comparaçaones.jpg", }
+      { id: 1, titulo: "controle nes", imagem: "/assets/img/nes/controlenes.jpg",  },
+      { id: 2, titulo: "Nintendo Zapper", imagem: "/assets/img/nes/zappernes.jpg", },
+      { id: 3, titulo: "Comparação de NES de diferentes regiões", imagem: "/assets/img/nes/comparaçaones.jpg", }
     ]
   },
 {
@@ -35,11 +35,11 @@ const dados = [
     conteudo: "O **Master System** foi a primeira grande aposta da Sega no mercado de consoles. Embora tenha tido mais sucesso na Europa e no Brasil do que na América do Norte, ele possuía gráficos tecnicamente superiores ao NES e introduziu personagens como *Alex Kidd*. Foi fundamental para iniciar a 'Guerra dos Consoles' com a Nintendo.",
     categoria: "Console",
     data: "1985-10-20",
-    imagem: "img/segams/Master-System.jpg",
+    imagem: "assets/img/segams/Master-System.jpg",
     fotos: [
-      { id: 1, titulo: "Controles do Master System.", imagem: "img/segams/controlems.jpg",  },
-      { id: 2, titulo: "Sega Light Phaser", imagem: "img/segams/lightphaserms.jpg",},
-      { id: 3, titulo: "Sega óculos 3D e o adaptador de cartão", imagem: "img/segams/oculosms.jpg" }
+      { id: 1, titulo: "Controles do Master System.", imagem: "/assets/img/segams/controlems.jpg",  },
+      { id: 2, titulo: "Sega Light Phaser", imagem: "/assets/img/segams/lightphaserms.jpg",},
+      { id: 3, titulo: "Sega óculos 3D e o adaptador de cartão", imagem: "/assets/img/segams/oculosms.jpg" }
     ]
   },
   {
@@ -49,11 +49,11 @@ const dados = [
     conteudo: "O **Mega Drive** marcou a transição para a era dos 16 bits. Sua campanha de marketing agressiva, focada na velocidade e no público adolescente, e a introdução de *Sonic the Hedgehog*, permitiram à Sega competir de igual para igual com o SNES. É lembrado por sua vasta biblioteca de jogos de arcade e RPGs.",
     categoria: "Console",
     data: "1988-10-29",
-    imagem: "img/segamd/Mega-Drive.jpg",
+    imagem: "assets/img/segamd/Mega-Drive.jpg",
     fotos: [
-      { id: 1, titulo: "Controlador Genesis de seis botões", imagem: "img/segamd/controlemd.jpg",},
-      { id: 2, titulo: " Nomad, versão portátil do console.", imagem: "img/segamd/nomadmd.jpg", },
-      { id: 3, titulo: "Modelo cartucho", imagem: "img/segamd/cartuchomd.jpg",}
+      { id: 1, titulo: "Controlador Genesis de seis botões", imagem: "/assets/img/segamd/controlemd.jpg",},
+      { id: 2, titulo: " Nomad, versão portátil do console.", imagem: "/assets/img/segamd/nomadmd.jpg", },
+      { id: 3, titulo: "Modelo cartucho", imagem: "/assets/img/segamd/cartuchomd.jpg",}
     ]
   },
   {
@@ -63,11 +63,11 @@ const dados = [
     conteudo: "O **Mega Drive** marcou a transição para a era dos 16 bits. Sua campanha de marketing agressiva, focada na velocidade e no público adolescente, e a introdução de *Sonic the Hedgehog*, permitiram à Sega competir de igual para igual com o SNES. É lembrado por sua vasta biblioteca de jogos de arcade e RPGs.",
     categoria: "Console",
     data: "1990-11-21",
-    imagem: "img/snes/snes.jpg",
+    imagem: "assets/img/snes/snes.jpg",
     fotos: [
-      { id: 1, titulo: " Cartucho Super Game Boy", imagem: "img/snes/cartuchosnes.jpg",},
-      { id: 2, titulo: "Controles da versão japonesa (acima) e americana (abaixo).", imagem: "img/snes/controlesnes.jpg",},
-      { id: 3, titulo: "Super NES Mouse", imagem: "img/snes/snesmouse.jpg",}
+      { id: 1, titulo: " Cartucho Super Game Boy", imagem: "assets/img/snes/cartuchosnes.jpg",},
+      { id: 2, titulo: "Controles da versão japonesa (acima) e americana (abaixo).", imagem: "assets/img/snes/controlesnes.jpg",},
+      { id: 3, titulo: "Super NES Mouse", imagem: "assets/img/snes/snesmouse.jpg",}
     ]
   },
 
@@ -79,12 +79,12 @@ const dados = [
     conteudo: "Pong é creditado como um dos primeiros jogos de arcade de sucesso comercial. Seu design extremamente simples (duas barras e uma bola) provou que o mercado de jogos eletrônicos era viável. Ele desencadeou a indústria de videogames e inspirou inúmeros jogos de esporte.",
     categoria: "Jogo",
     data: "1972-11-29",
-    imagem: "img/pong/pong.png",
+    imagem: "assets/img/pong/pong.png",
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Máquina Pong", imagem: "img/pong/pongarcade.png",},
-      { id: 2, titulo: "Máquina Pong", imagem: "img/pong/pongdomestico.png",},
-      { id: 3, titulo: "Máquina Pong", imagem: "img/pong/criadorpong1.jpg", }
+      { id: 1, titulo: "Máquina Pong", imagem: "assets/img/pong/pongarcade.png",},
+      { id: 2, titulo: "Máquina Pong", imagem: "assets/img/pong/pongdomestico.png",},
+      { id: 3, titulo: "Máquina Pong", imagem: "assets/img/pong/criadorpong1.jpg", }
     ]
   },
   {
@@ -94,12 +94,12 @@ const dados = [
     conteudo: "Space Invaders** foi um fenômeno cultural global. É um dos primeiros jogos de tiro (shmup) e popularizou o conceito de pontuação alta. Sua demanda por moedas era tão alta que se diz ter causado uma escassez temporária de moedas de 100 ienes no Japão!",
     categoria: "Jogo",
     data: "1978-06-16",
-    imagem: "img/spinvaders/space-invaders.jpg",
+    imagem: "assets/img/spinvaders/space-invaders.jpg",
     destaque: false,
     fotos: [
-      { id: 1, titulo: "Arcade Space Invaders", imagem: "img/spinvaders/spacearcade.jpeg",},
-      { id: 2, titulo: "Arcade Space Invaders", imagem: "img/spinvaders/criadorspace.jpg", },
-      { id: 3, titulo: "Arcade Space Invaders", imagem: "img/spinvaders/spacecartucho.jpeg",  }
+      { id: 1, titulo: "Arcade Space Invaders", imagem: "assets/img/spinvaders/spacearcade.jpeg",},
+      { id: 2, titulo: "Arcade Space Invaders", imagem: "assets/img/spinvaders/criadorspace.jpg", },
+      { id: 3, titulo: "Arcade Space Invaders", imagem: "assets/img/spinvaders/spacecartucho.jpeg",  }
     ]
   },
   {
@@ -109,12 +109,12 @@ const dados = [
     conteudo: "Pac-Man** (originalmente Puck Man) é um dos jogos de arcade mais vendidos e reconhecidos de todos os tempos. Sua jogabilidade de labirinto, focada em estratégia e evasão, e o apelo do personagem, o transformaram em um ícone pop que transcendeu o mundo dos games.",
     categoria: "Jogo",
     data: "1980-05-22",
-    imagem: "img/pacman/pac-man.jpg",
+    imagem: "assets/img/pacman/pac-man.jpg",
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Arte Pac-Man", imagem: "img/pacman/pacmanportatil.jpg",  },
-      { id: 2, titulo: "Arte Pac-Man", imagem: "img/pacman/criadorpacman.jpg",  },
-      { id: 3, titulo: "Arte Pac-Man", imagem: "img/pacman/panfletopacman.png",  }
+      { id: 1, titulo: "Arte Pac-Man", imagem: "assets/img/pacman/pacmanportatil.jpg",  },
+      { id: 2, titulo: "Arte Pac-Man", imagem: "assets/img/pacman/criadorpacman.jpg",  },
+      { id: 3, titulo: "Arte Pac-Man", imagem: "assets/img/pacman/panfletopacman.png",  }
 
     ]
   },
@@ -125,12 +125,12 @@ const dados = [
     conteudo: "Tetris** é notável por ter sido criado por um engenheiro de software russo e por ser um dos jogos mais portados de todos os tempos. Sua popularidade explodiu globalmente com o lançamento do Nintendo Game Boy, provando que jogos simples e viciantes podem ser eternos. É um mestre em design de jogos pela sua simplicidade e profundidade.",
     categoria: "Jogo",
     data: "1984-06-06",
-    imagem: "img/tetris/tetris.jpg",
+    imagem: "assets/img/tetris/tetris.jpg",
     destaque: false,
     fotos: [
-      { id: 1, titulo: "Criador Tetris", imagem: "img/tetris/criadortetris.jpg", },
-      { id: 2, titulo: "Game Boy Tetris", imagem: "img/tetris/tetrisgb.jpg",},
-      { id: 3, titulo: "Game Boy Tetris", imagem: "img/tetris/primeirotetris.png",}
+      { id: 1, titulo: "Criador Tetris", imagem: "assets/img/tetris/criadortetris.jpg", },
+      { id: 2, titulo: "Game Boy Tetris", imagem: "assets/img/tetris/tetrisgb.jpg",},
+      { id: 3, titulo: "Game Boy Tetris", imagem: "assets/img/tetris/primeirotetris.png",}
     ]
   },
   {
@@ -140,12 +140,12 @@ const dados = [
     conteudo: "Super Mario Bros.** é o jogo de plataforma definitivo. Ele definiu o gênero, introduzindo conceitos como rolagem lateral suave, power-ups, e design de fases que ensina o jogador através da experiência. Seu sucesso no NES o tornou um divisor de águas e o jogo mais influente de todos os tempos.",
     categoria: "Jogo",
     data: "1985-09-13",
-    imagem: "img/smariobros/super-mario-bross.jpg",
+    imagem: "assets/img/smariobros/super-mario-bross.jpg",
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Capa Super Mario Bros", imagem: "img/smariobros/capamario.png",},
-      { id: 2, titulo: "Screenshot", imagem: "img/smariobros/mariotela.png",},
-      { id: 3, titulo: "criador", imagem: "img/smariobros/criadormario.jpg", }
+      { id: 1, titulo: "Capa Super Mario Bros", imagem: "assets/img/smariobros/capamario.png",},
+      { id: 2, titulo: "Screenshot", imagem: "assets/img/smariobros/mariotela.png",},
+      { id: 3, titulo: "criador", imagem: "assets/img/smariobros/criadormario.jpg", }
     ]
   },
 
@@ -158,11 +158,11 @@ const dados = [
     conteudo: "Muitos jogos retro estão sendo remasterizados ou refeitos para plataformas modernas. Títulos como 'The Legend of Zelda: Link's Awakening' e 'Final Fantasy VII Remake' trazem gráficos atualizados e jogabilidade aprimorada, permitindo que novas gerações experimentem esses clássicos com uma roupagem nova e atraente, mantendo a essência original. A facilidade de acesso em consoles modernos é um grande atrativo para os fãs do retrô.",
     categoria: "Notícia",
     data: "2025-03-28",
-    imagem: "img/remakes/remake.jpeg",
+    imagem: "assets/img/remakes/remake.jpeg",
     fotos: [
-      { id: 1, titulo: "Remake Final Fantasy VII", imagem: "img/remakes/remakeff.jpeg", },
-      { id: 2, titulo: "Remake Resident Evil 4", imagem: "img/remakes/remakere.jpeg",  },
-      { id: 3, titulo: "Remake Zelda: Link's Awakening", imagem: "img/remakes/remakezld.jpeg", }
+      { id: 1, titulo: "Remake Final Fantasy VII", imagem: "assets/img/remakes/remakeff.jpeg", },
+      { id: 2, titulo: "Remake Resident Evil 4", imagem: "assets/img/remakes/remakere.jpeg",  },
+      { id: 3, titulo: "Remake Zelda: Link's Awakening", imagem: "assets/img/remakes/remakezld.jpeg", }
     ]
   },
 ];
@@ -177,7 +177,7 @@ function criarCardBootstrap(item) {
     <div class="col">
       <div class="card h-100 text-light bg-dark border-black">
         <a href="${urlDetalhes}" class="d-block">
-          <img src="${item.imagem}" class="card-img-top" alt="${escapeHtml(item.titulo)}" onerror="this.src='img/placeholder.png'">
+          <img src="${item.imagem}" class="card-img-top" alt="${escapeHtml(item.titulo)}" onerror="this.src='assets/img/placeholder.png'">
         </a>
         <div class="card-body bg-black">
           <a href="${urlDetalhes}" class="text-decoration-none">
@@ -285,7 +285,7 @@ function carregarDetalhesPagina() {
     <p class="text-muted small"><span class="badge bg-warning text-dark">${escapeHtml(item.categoria)}</span></p>
     <div class="row g-4 align-items-start">
       <div class="col-12 col-md-5">
-        <img src="${item.imagem}" alt="${escapeHtml(item.titulo)}" class="img-fluid rounded" onerror="this.src='img/placeholder.png'">
+        <img src="${item.imagem}" alt="${escapeHtml(item.titulo)}" class="img-fluid rounded" onerror="this.src='assets/img/placeholder.png'">
       </div>
       <div class="col-12 col-md-7">
         <h3 class="text-warning">Resumo</h3>
@@ -315,7 +315,7 @@ function carregarDetalhesPagina() {
 
         col.innerHTML = `
           <div class="card h-100 bg-dark border-warning text-light">
-            <img src="${f.imagem}" class="card-img-top" alt="${escapeHtml(f.titulo)}" onerror="this.src='img/placeholder.png'">
+            <img src="${f.imagem}" class="card-img-top" alt="${escapeHtml(f.titulo)}" onerror="this.src='assets/img/placeholder.png'">
             <div class="card-body">
               <h5 class="card-title text-warning">${escapeHtml(f.titulo)}</h5>
               <p class="card-text small text-muted">${escapeHtml(f.descricao || '')}</p>
