@@ -23,9 +23,9 @@ const dados = [
     data: "1983-07-15",
     imagem: "assets/img/nes/nes.jpg",
     fotos: [
-      { id: 1, titulo: "controle nes", imagem: "/assets/img/nes/controlenes.jpg",  },
-      { id: 2, titulo: "Nintendo Zapper", imagem: "/assets/img/nes/zappernes.jpg", },
-      { id: 3, titulo: "Comparação de NES de diferentes regiões", imagem: "/assets/img/nes/comparaçaones.jpg", }
+      { id: 1, titulo: "controle nes", imagem: "/assets/img/nes/controlenes.jpg",},
+      { id: 2, titulo: "Nintendo Zapper", imagem: "/assets/img/nes/zappernes.jpg",},
+      { id: 3, titulo: "Comparação de NES de diferentes regiões", imagem: "/assets/img/nes/comparaçaones.jpg",}
     ]
   },
 {
@@ -37,9 +37,9 @@ const dados = [
     data: "1985-10-20",
     imagem: "assets/img/segams/Master-System.jpg",
     fotos: [
-      { id: 1, titulo: "Controles do Master System.", imagem: "/assets/img/segams/controlems.jpg",  },
+      { id: 1, titulo: "Controles do Master System.", imagem: "/assets/img/segams/controlems.jpg",},
       { id: 2, titulo: "Sega Light Phaser", imagem: "/assets/img/segams/lightphaserms.jpg",},
-      { id: 3, titulo: "Sega óculos 3D e o adaptador de cartão", imagem: "/assets/img/segams/oculosms.jpg" }
+      { id: 3, titulo: "Sega óculos 3D e o adaptador de cartão", imagem: "/assets/img/segams/oculosms.jpg",}
     ]
   },
   {
@@ -83,8 +83,8 @@ const dados = [
     destaque: true,
     fotos: [
       { id: 1, titulo: "Máquina Pong", imagem: "assets/img/pong/pongarcade.png",},
-      { id: 2, titulo: "Máquina Pong", imagem: "assets/img/pong/pongdomestico.png",},
-      { id: 3, titulo: "Máquina Pong", imagem: "assets/img/pong/criadorpong1.jpg", }
+      { id: 2, titulo: "Versão do pong portatil", imagem: "assets/img/pong/pongdomestico.png",},
+      { id: 3, titulo: "Criador do Pong", imagem: "assets/img/pong/criadorpong1.jpg", }
     ]
   },
   {
@@ -98,8 +98,8 @@ const dados = [
     destaque: false,
     fotos: [
       { id: 1, titulo: "Arcade Space Invaders", imagem: "assets/img/spinvaders/spacearcade.jpeg",},
-      { id: 2, titulo: "Arcade Space Invaders", imagem: "assets/img/spinvaders/criadorspace.jpg", },
-      { id: 3, titulo: "Arcade Space Invaders", imagem: "assets/img/spinvaders/spacecartucho.jpeg",  }
+      { id: 2, titulo: "Criador Space Invaders", imagem: "assets/img/spinvaders/criadorspace.jpg", },
+      { id: 3, titulo: "Capa do cartucho Space Invaders", imagem: "assets/img/spinvaders/spacecartucho.jpeg",}
     ]
   },
   {
@@ -112,9 +112,9 @@ const dados = [
     imagem: "assets/img/pacman/pac-man.jpg",
     destaque: true,
     fotos: [
-      { id: 1, titulo: "Arte Pac-Man", imagem: "assets/img/pacman/pacmanportatil.jpg",  },
-      { id: 2, titulo: "Arte Pac-Man", imagem: "assets/img/pacman/criadorpacman.jpg",  },
-      { id: 3, titulo: "Arte Pac-Man", imagem: "assets/img/pacman/panfletopacman.png",  }
+      { id: 1, titulo: "Versão portatil Pac-Man", imagem: "assets/img/pacman/pacmanportatil.jpg",},
+      { id: 2, titulo: "Criador Pac-Man", imagem: "assets/img/pacman/criadorpacman.jpg",},
+      { id: 3, titulo: "Poster Primeiro arcade Pac-Man", imagem: "assets/img/pacman/panfletopacman.png",}
 
     ]
   },
@@ -128,9 +128,9 @@ const dados = [
     imagem: "assets/img/tetris/tetris.jpg",
     destaque: false,
     fotos: [
-      { id: 1, titulo: "Criador Tetris", imagem: "assets/img/tetris/criadortetris.jpg", },
+      { id: 1, titulo: "Criador Tetris", imagem: "assets/img/tetris/criadortetris.jpg",},
       { id: 2, titulo: "Game Boy Tetris", imagem: "assets/img/tetris/tetrisgb.jpg",},
-      { id: 3, titulo: "Game Boy Tetris", imagem: "assets/img/tetris/primeirotetris.png",}
+      { id: 3, titulo: "Imagem do jogo Tetris", imagem: "assets/img/tetris/primeirotetris.png",}
     ]
   },
   {
@@ -144,8 +144,8 @@ const dados = [
     destaque: true,
     fotos: [
       { id: 1, titulo: "Capa Super Mario Bros", imagem: "assets/img/smariobros/capamario.png",},
-      { id: 2, titulo: "Screenshot", imagem: "assets/img/smariobros/mariotela.png",},
-      { id: 3, titulo: "criador", imagem: "assets/img/smariobros/criadormario.jpg", }
+      { id: 2, titulo: "Screenshot do jogo", imagem: "assets/img/smariobros/mariotela.png",},
+      { id: 3, titulo: "criador do Super Mario bros", imagem: "assets/img/smariobros/criadormario.jpg", }
     ]
   },
 
@@ -160,9 +160,9 @@ const dados = [
     data: "2025-03-28",
     imagem: "assets/img/remakes/remake.jpeg",
     fotos: [
-      { id: 1, titulo: "Remake Final Fantasy VII", imagem: "assets/img/remakes/remakeff.jpeg", },
+      { id: 1, titulo: "Remake Final Fantasy VII", imagem: "assets/img/remakes/remakeff.jpeg",},
       { id: 2, titulo: "Remake Resident Evil 4", imagem: "assets/img/remakes/remakere.jpeg",  },
-      { id: 3, titulo: "Remake Zelda: Link's Awakening", imagem: "assets/img/remakes/remakezld.jpeg", }
+      { id: 3, titulo: "Remake Zelda: Link's Awakening", imagem: "assets/img/remakes/remakezld.jpeg",}
     ]
   },
 ];
