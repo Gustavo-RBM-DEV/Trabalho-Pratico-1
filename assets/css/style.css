@@ -105,23 +105,23 @@ footer {
   border: 1px solid #ffc107;
 }
 
-/* --- INÍCIO DA MODIFICAÇÃO PARA PADRONIZAR A GALERIA --- */
+
 #fotos-vinculadas .card {
-  /* Altera o estilo do cartão (contêiner) para ter uma altura fixa */
-  height: 120px; /* **ADICIONADO/MODIFICADO: Define a altura fixa para todos os cartões** */
-  overflow: hidden; /* **ADICIONADO: Esconde o conteúdo que ultrapassar o limite de altura** */
+  
+  height: 120px; 
+  overflow: hidden; 
   border: 1px solid #ffc107;
   background-color: #1a1a1a;
 }
 
 #fotos-vinculadas .card img {
-  /* Altera o estilo da imagem dentro do cartão */
-  width: 100%; /* **ADICIONADO: Garante que a imagem preencha a largura** */
-  height: 100%; /* **ADICIONADO: Garante que a imagem preencha a altura do CARD (280px)** */
-  object-fit: cover; /* **ADICIONADO: Essencial para preencher o espaço sem distorcer** */
+  
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
   border-radius: 6px;
 }
-/* --- FIM DA MODIFICAÇÃO --- */
+
 
 @media (max-width: 992px) {
     .carousel-inner img {

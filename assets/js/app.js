@@ -209,6 +209,7 @@ function montarSecaoCards(containerId, categorias) {
   container.innerHTML = html;
 }
 
+// Função para montar o Carousel de Jogos em Destaque.
 function montarCarouselJogosDestaque() {
   const destaqueJogos = dados.filter(d => d.categoria === 'Jogo' && d.destaque);
   const container = document.getElementById('carousel-container');
@@ -224,6 +225,7 @@ function montarCarouselJogosDestaque() {
     return `<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}" class="${i===0 ? 'active' : ''}" aria-current="${i===0 ? 'true' : 'false'}" aria-label="Slide ${i+1}"></button>`;
   }).join('\n');
 
+  // Cria os itens (slides) do carousel.
   const items = destaqueJogos.map((j, i) => {
     return `
       <div class="carousel-item ${i===0 ? 'active' : ''}">
@@ -238,6 +240,7 @@ function montarCarouselJogosDestaque() {
     `;
   }).join('\n');
 
+  // Monta a estrutura final do Carousel do Bootstrap.
   const carouselHTML = `
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -260,6 +263,7 @@ function montarCarouselJogosDestaque() {
   container.innerHTML = carouselHTML;
 }
 
+// Função que carrega e exibe os detalhes de um item específico na página de detalhes.
 function carregarDetalhesPagina() {
   const detalhesContainer = document.getElementById('detalhes-item');
   const fotosContainer = document.getElementById('fotos-vinculadas');
@@ -280,6 +284,7 @@ function carregarDetalhesPagina() {
     return;
   }
 
+  // Cria o HTML principal dos detalhes do item (título, imagem, resumo, conteúdo).
   const htmlDetalhes = `
     <h1 class="text-warning mb-3">${escapeHtml(item.titulo)}</h1>
     <p class="text-muted small"><span class="badge bg-warning text-dark">${escapeHtml(item.categoria)}</span></p>
